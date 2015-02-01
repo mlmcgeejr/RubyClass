@@ -81,7 +81,7 @@ while allisok == "Yes"
 			puts pounds.to_s + ' pounds is equal to ' + convert_lbs_to_kg(pounds).to_s + ' kilograms'
 			puts " "
 		else
-			puts "Hellooooo!.    A number #{your_name} or END.   Not to hard.   Try it again."
+			puts "Helloo!.    A number #{your_name} or END.   Not to hard.   Try it again."
 		end	
 	end
 end
