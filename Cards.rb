@@ -9,6 +9,5 @@ deck = ["A", "K", "Q", "J", 10, 9, 8, 7, 6, 5, 4, 3, 2]
 my_hand = deal(deck)
 puts "My first hand is " + my_hand.inspect
 puts " "
- 
 my_hand = deal(deck)
   puts "My second hand is " + my_hand.inspect

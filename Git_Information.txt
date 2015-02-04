@@ -1,0 +1,29 @@
+Git Notes
+
+I could not get my updates to go to my repository.
+I kept getting the following messages
+"Updates were rejected because the tip of your current branch is behind 
+ its remote counterpart. Integrate the remote changes (e.g. git pull) before pushing again.
+
+I Goggled the error messages until I landed on a site
+http://stackoverflow.com/questions/25237959/updates-were-rejected-because-the-tip-of-your-current-branch-is-behind-hint-its
+
+It said to issue a   git pull
+
+When I did this, I got another error message that read:
+
+"There is no tracking information for the current branch. 
+  Please specify which branch you want to merge with."
+
+I Googled that error message    and   walla  and landed on the following website
+http://stackoverflow.com/questions/10147475/git-checkout-tag-git-pull-fails-in-branch
+
+It said that if I wish to enter tracking information for this branch, I can do so with the
+following git command
+
+git branch --set-upstream master origin/master
+
+then I did a git pull - and it merged by branches together (I think)
+
+After that my git push worked!
+
