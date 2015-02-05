@@ -15,6 +15,14 @@ class Person
   end
 end
 
+class Teacher < Person
+end
+
+prof = Teacher.new("Paula", "Paul")
+prof.say_something
+
+
+
 larry = Person.new("Larry", "McGee")
 
 puts larry.full_name + " says.... "
