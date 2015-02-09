@@ -13,6 +13,10 @@ class Person
   def say_something
     puts "Hello Classy!  My name is " + @first_name
   end
+  
+  def say_something_full
+    puts "Hello Classy!  My name is " + @first_name + " " + @last_name
+  end
 end
 
 class Teacher < Person
@@ -32,10 +36,11 @@ people.push Person.new("Larry", "McGee")
 people.push Person.new("Les", "Porter")
 
 people[0].say_something
-people[1].say_something
+people[1].say_something_full
 people[2].say_something
 
 puts " "
 people.each do |person|
   person.say_something
+  puts person.class
 end
